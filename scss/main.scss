@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.game{
+    .snake{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin: 0 auto;
+        &__border{
+            width: 604px;
+            height: 604px;
+            border: 2px solid black;
+        }
+    }
+}
+
+#canvas{
+    background-image: url("/img/background3.jpeg");
+}
